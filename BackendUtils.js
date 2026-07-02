@@ -1964,7 +1964,7 @@ class TournamentXController {
           minPlayersPerMatch: 2,
           maxPlayersPerMatch: 2,
           areLevelsRestricted: true,
-          permittedLevels: ["eventlevel13_block_legendary"]
+          permittedLevels: ["level11_laser_tracer"]
         }
       ],
       awards: [
