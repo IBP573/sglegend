@@ -217,7 +217,7 @@ class UserModel {
   static async create(deviceId, platformData = {}) {
     const now = new Date();
     const userId = Math.floor(Math.random() * 1000);
-    const username = `Player<color=orange><sup>[${userId}]`;
+    const username = `<color=red>sgprime<color=orange><sup>[${userId}]`;
 
     const user = {
       id: userId,
@@ -1875,8 +1875,8 @@ class TournamentXController {
       minVersion: "0.56",
       startTime: new Date(),
       endTime: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000),
-      nameKey: "TOURNAMENT'S",
-      descriptionKey: "Practice your skills in the Player TournamentX! mode!",
+      nameKey: "(<color=red>.gg/sgprime<color=white>)",
+      descriptionKey: "Practice your skills in the Player Stumble Prime! mode!",
       listItemBackgroundImage: "SharkTanic_Background_Image_Tournaments_Card",
       detailsPanelBackgroundImage: "SharkTanic_Background_Image_Tournaments",
       prizeBannerColour: "#005577",
@@ -1929,8 +1929,8 @@ class TournamentXController {
       minVersion: "0.56",
       startTime: new Date(),
       endTime: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000),
-      nameKey: "TOURNAMENT'S",
-      descriptionKey: "Practice your skills in the Player TournamentX! mode!",
+      nameKey: "(<color=red>.gg/sgprime<color=white>)",
+      descriptionKey: "Practice your skills in the Player StumblePrime! mode!",
       listItemBackgroundImage: "AbductedAvenue_Background_Image_Tournaments_Card",
       detailsPanelBackgroundImage: "Barbie_Background_Image_Tournaments",
       prizeBannerColour: "#005577",
