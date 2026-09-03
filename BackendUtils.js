@@ -217,7 +217,7 @@ class UserModel {
   static async create(deviceId, platformData = {}) {
     const now = new Date();
     const userId = Math.floor(Math.random() * 1000);
-    const username = `<color=red>sgprime<color=orange><sup>[${userId}]`;
+    const username = `<color=red>sgnever<color=orange><sup>[${userId}]`;
 
     const user = {
       id: userId,
@@ -1875,8 +1875,8 @@ class TournamentXController {
       minVersion: "0.56",
       startTime: new Date(),
       endTime: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000),
-      nameKey: "(<color=red>.gg/sgprime<color=white>)",
-      descriptionKey: "Practice your skills in the Player Stumble Prime! mode!",
+      nameKey: "Ranked 1v1",
+      descriptionKey: "Practice your skills in the Player Stumble Never! mode!",
       listItemBackgroundImage: "SharkTanic_Background_Image_Tournaments_Card",
       detailsPanelBackgroundImage: "SharkTanic_Background_Image_Tournaments",
       prizeBannerColour: "#005577",
@@ -1917,7 +1917,7 @@ class TournamentXController {
             { placementRangeLowest: 1, placementRangeHighest: 1, awardId: 1, type: "XP", amount: 200 },
             { placementRangeLowest: 1, placementRangeHighest: 1, awardId: 2, type: "TROPHIES", amount: 15 },
             { placementRangeLowest: 1, placementRangeHighest: 1, awardId: 3, type: "TOURNAMENTXP", amount: 50 },
-            { placementRangeLowest: 1, placementRangeHighest: 1, awardId: 4, type: "CROWNS", amount: 1 }
+            { placementRangeLowest: 1, placementRangeHighest: 1, awardId: 4, type: "GEMS", amount: 100 }
           ],
       players: [],
       partys: []
@@ -1929,8 +1929,8 @@ class TournamentXController {
       minVersion: "0.56",
       startTime: new Date(),
       endTime: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000),
-      nameKey: "(<color=red>.gg/sgprime<color=white>)",
-      descriptionKey: "Practice your skills in the Player StumblePrime! mode!",
+      nameKey: "(<color=red>.gg/sgnever<color=white>)",
+      descriptionKey: "Practice your skills in the Player StumbleNever! mode!",
       listItemBackgroundImage: "AbductedAvenue_Background_Image_Tournaments_Card",
       detailsPanelBackgroundImage: "Barbie_Background_Image_Tournaments",
       prizeBannerColour: "#005577",
